@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:11-alpine
+    environment:
+      POSTGRES_USER: fitness
+      POSTGRES_PASSWORD: fitness
+      POSTGRES_DB: fitness
+    ports:
+      - "5432:5432"

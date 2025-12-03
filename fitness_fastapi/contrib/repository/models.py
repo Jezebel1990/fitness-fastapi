@@ -1,0 +1,3 @@
+from fitness_fastapi.categorias.models import CategoriaModel
+from fitness_fastapi.praticante.models import PraticanteModel
+from fitness_fastapi.centro_treinamento.models import CentroTreinamentoModel
